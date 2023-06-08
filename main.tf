@@ -1,3 +1,7 @@
+# Configure the AWS Provider
+provider "aws" {
+  region = "us-east-1"
+}
 ### task 0 create a keypair
 
 resource "aws_key_pair" "key-tf" {
